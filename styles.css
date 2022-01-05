@@ -1,0 +1,92 @@
+body {
+	color: gold;
+	font: bold 11px/1.5em Verdana;
+	background-color: rgb(0, 0, 0);
+}
+
+#tabs {
+	margin-left: 417px;
+	float:left;
+	background:black;
+	font-size:130%;
+	line-height:normal;
+}
+	
+#tabs ul {
+	margin:0;
+	padding:5px 10px 0 0px;
+	list-style:none;
+}
+	
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+	
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+	
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:white;
+}
+	
+
+#tabs a:hover span {
+	color:gold;
+	font-size: 15px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+
+.head5{
+	font-size: 9px;
+	margin-top: 136px;
+
+}
+.head5 a{
+	text-decoration: none;
+	color: gold;
+}
+.head{
+    color: black;
+}
+
+.head3 a{
+	text-decoration: none;
+	color: gold;
+
+}
+.head3{
+	margin-top: 30px;
+}
+.head2 a{
+	text-decoration: none;
+	color: gold;
+
+}
+.head2{
+	margin-top: 60px;
+}
+.head2 a:hover{
+	text-decoration: underline;
+}
+.head3 a:hover{
+	text-decoration: underline;
+}
